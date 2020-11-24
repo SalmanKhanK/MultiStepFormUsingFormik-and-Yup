@@ -1,0 +1,40 @@
+.loginHeader{
+    width: 30%;
+    height: 250px;
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 70px;
+}
+.loginBtn{
+    width: 90%;
+    margin-top: 15px !important;
+    padding: 13px !important;
+}
+.textfield{
+    width: 90%;
+    margin-top: 15px !important;
+}
+.errormsg{
+    width: 100% !important;
+    color: red !important;
+     margin: 0px !important;
+     margin-left: 18px !important;
+      text-align: left;
+     
+}
+.titleLog{
+    display: block !important;
+    text-align: center;
+    margin: 5px;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.createAccBtn{
+    display: block !important;
+    width: 40%;
+    text-align: left !important;
+    margin-left: 18px !important;
+}
