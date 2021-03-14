@@ -3,7 +3,6 @@ import {Formik,Form,ErrorMessage,Field} from 'formik'
 import * as yup from 'yup';
 import {TextField,Paper,Button} from '@material-ui/core/';
 import { Link } from 'react-router-dom';
-import {signuptype} from '../Types/Types'
 import swal from 'sweetalert'
 import './login.css'
 import {AddUsersContext} from '../Context/Usecontext'
@@ -30,7 +29,7 @@ const initialValues:loginformvalues={
        
           //alert(JSON.stringify(values, null, 2));
     for(var i=0;i<Add.length;i++){
-          if(values.email==Add[i].email && values.password==Add[i].password){
+          if(values.email===Add[i].email && values.password===Add[i].password){
                 return  swal("Login Successfully!","You clicked the button!", "success");
           }
           else{
